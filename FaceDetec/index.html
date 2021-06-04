@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#009578">
+  <title>Face Detection</title>
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="images/humen.png">
+
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    canvas {
+      position: absolute;
+      /* width: 720px;
+      width: 560px; */
+    }
+  </style>
+</head>
+
+<body>
+  <video id="video" width="720" height="560" autoplay muted></video>
+  <script src="src/index.js"></script>
+</body>
+
+</html>
