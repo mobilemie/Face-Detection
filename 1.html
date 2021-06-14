@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>face filter</title>
+    <style>
+        .vertical-center {
+            margin: 0;
+            position: absolute;
+            top: 119%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: 1170px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="vertical-center"><button id="start">Start Record</button>&nbsp;<button id="stop" disabled>Stop
+            Record</button>
+    </div>
+    <!-- <a id="a1" download="file.mp4">download</a> -->
+    <video autoplay controls> </video>
+    <script src="2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clmtrackr@1.1.2/build/clmtrackr.min.js"></script>
+    <!-- <script>
+        // const vid = document.getElementById("vid");
+        // const blob1 = new Blob(["hello"], { type: "video/mp4" })
+        // a1.href = URL.createObjectURL(blob1);
+    </script> -->
+
+</body>
+
+</html>
